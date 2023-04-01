@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Alkatra', cursive;
+}
+header {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.601);
+    position: fixed;
+}
+
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+button {
+   
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+button:hover {
+    box-shadow: 0 0 0 0 black inset;
+    color: red;
+    animation: glowing 1300ms;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: white;
+        box-shadow: 0 0 5px black;
+    }
+
+    50% {
+        background-color: black;
+        box-shadow: 0 0 20px black;
+    }
+
+    100% {
+        background-color: black;
+        box-shadow: 0 0 -5px red;
+    }
+}
