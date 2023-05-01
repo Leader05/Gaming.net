@@ -1,27 +1,28 @@
-body{
+body {
     margin: 0;
     font-family: 'Alkatra', cursive;
 }
+
 header {
     height: 60px;
     background-color: rgba(0, 0, 0, 0.601);
     position: fixed;
 }
 
-nav{
+nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     height: 100%;
     align-items: center;
-    
 }
 
-main{
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 h1 {
     color: red;
     font-size: 50px;
@@ -29,7 +30,6 @@ h1 {
 }
 
 button {
-   
     -webkit-border-radius: 60px;
     border-radius: 60px;
     border: none;
@@ -52,12 +52,10 @@ button:hover {
         background-color: white;
         box-shadow: 0 0 5px black;
     }
-
     50% {
         background-color: black;
         box-shadow: 0 0 20px black;
     }
-
     100% {
         background-color: black;
         box-shadow: 0 0 -5px red;
@@ -66,29 +64,24 @@ button:hover {
 
 table {
     margin: 0 auto;
-    font-size: 16px; 
-    border-collapse: collapse; 
-  }
-  
-  
-  th {
+    font-size: 16px;
+    border-collapse: collapse;
+}
+
+th {
     font-weight: bold;
     text-decoration: underline;
-  }
-  
-  
-  td, th {
-    padding: 8px;
-  }
-  
- 
-  input[type="checkbox"]:checked {
-    background-color: #00ff00;
-  }
-  
-  
-  input[type="checkbox"] {
-    background-color: #ffffff;
-  }
+}
 
-  
+td,
+th {
+    padding: 8px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #00ff00;
+}
+
+input[type="checkbox"] {
+    background-color: #ffffff;
+}
